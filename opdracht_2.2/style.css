@@ -39,3 +39,7 @@ mark{
 a{
     font-family:sans-serif;
 }
+
+.none{
+    display: none;
+}
