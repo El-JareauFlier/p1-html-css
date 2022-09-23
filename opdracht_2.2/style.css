@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62,5%;
+}
+
+body{
+    margin: 60px 80px;
+}
+
+section{
+    margin: 5vh;
+    width: 90%;
+}
+
+h1{
+    font-family:sans-serif;
+    margin: 1vh 0;
+}
+
+h2{
+    font-family:sans-serif ;
+    margin: 1vh 0;
+}
+
+h3{
+    font-family:sans-serif ;
+    margin: 1vh 0;
+}
+
+p{
+    font-family:sans-serif;
+}
+
+mark{
+    background-color:lightgrey;
+}
+
+a{
+    font-family:sans-serif;
+}
