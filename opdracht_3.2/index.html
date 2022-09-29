@@ -11,16 +11,21 @@
 <body>
     <main>
         <form>
+            <h1>Formulier</h1><br>
             <!-- hier schrijf je je voornaam in -->
-            <label for="givenname">Voornaam:</label><br>
-            <input type="text" name="givenname"><br><br>
+            <label for="naam">Voornaam</label><br>
+            <input type="text" name="naam" placeholder="El-jareau" required><br><br>
 
             <!-- hier schrijf je je achternaam in -->
             <label for="lastname">Achternaam:</label><br>
-            <input type="text" name="lastname"><br><br>
+            <input type="text" name="lastname" placeholder="Flier" required><br><br>
+
+            <!-- bsn-nummer -->
+            <label for="bsn">bsn-nummer</label><br>
+            <input type="number" minlength="9" placeholder="(max 9 cijfers)" required><br><br>
 
             <!-- hier kies je voor je geslacht -->
-            <label for="uw geslacht">Het land je nu in bent</label><br>
+            <label for="uw geslacht">geslacht</label><br>
             <select name="geslacht" value="man">
                 <option>man</option>
                 <option>vrouw</option>
@@ -28,13 +33,18 @@
 
             </select><br><br>
 
-            <!-- hier schrijf je je straatnummer en huisnummer  -->
-            <label for="city">Woonplaats:</label><br>
-            <input type="text" name="city"><br><br>
+            <!-- hier schrijf je je straat en huisnummer  -->
+            <label for="huisnummer">straat en huisnummer</label><br>
+            <input type="text" name="straatnaam" placeholder="zaagmolenstaat">
+            <input type="text" name="huisnummer" placeholder="124 C"><br><br>
 
             <!-- hier schrijf je je postcode -->
+            <label for="postcode">postcode</label><br>
+            <input type="text" name="postcode" placeholder="3035 HH"><br><br>
 
             <!-- hier schrijf je je stad -->
+            <label for="stad">stad</label><br>
+            <input type="text" name="stad" placeholder="rotterdam   "><br><br>
 
             <!-- hier schrijf je je land -->
             <label for="vakantieland">Het land je nu in bent</label><br>
@@ -59,19 +69,33 @@
             <input type="date"><br><br>
 
             <!-- je datum van aankomst -->
+            <label for="terug komst" min="2022-09-29" max="2022-12-31">terug komst</label><br>
+            <input type="date"><br><br>
 
-            <!-- hier schrijf je je postcode -->
-
-            <input type="submit" name="register">
-
+            <!-- aantal reisgenoten -->
+            <label for="personen">aantal personen (max 4)</label><br>
+            <select name="personen">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select><br><br>
+            
+            <!-- hier schrijf je je email -->
             <label for="email">Email:</label><br>
-            <input type="email" name="email"><br>
+            <input type="email" name="email" required ><br><br>
 
+            <!-- hier schrijf je je wachtwoord -->
             <label for="password1">Wachtwoord:</label><br>
-            <input type="password" name="password1"><br>
+            <input type="password" name="password1" minlength="8" required><br><br>
 
-            <label for="password2">Herhaal Wachtwoord:</label><br>
-            <input type="password" name="password2"><br>
+            <!-- hier schrijf je je wachtwoord voor verificatie -->
+            <label for="password2">Herhaal Wachtwoord</label><br>
+            <input type="password" name="password2" minlength="8" required><br><br>
+
+            <!-- de verzend knop -->
+            <input type="submit" name="boek nu">
 
         </form>
     </main>
