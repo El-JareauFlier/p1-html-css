@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body{
+    width: 90%;
+    margin: auto;
+
+}
+
+h1.none {
+    display: none;
+}
+
+article{
+    margin: 5rem 0;
+}
+
+h1{
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: italic;
+    color: blue;
+
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #0000ff;
+
+}
+
+h3{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: teal;
+}
+
+p{
+    color: #4D4D4D;
+}
+
+.p-thick{
+    font-weight: 900;
+}
+
+a{
+    color: #8A2BE2;
+    list-style-type: none;
+}
+
+img{
+    width: 50rem;
+}
