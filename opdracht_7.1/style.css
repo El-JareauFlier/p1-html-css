@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+.sectlogo{
+    padding: 0rem 2rem;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.sectmain{
+    padding: 1rem 2rem;
+    height: 30vh;
+}
+
+
+.color1{
+    color: white;
+    background-color: rgb(243, 67, 67);
+}
+.color2{
+    background-color: rgb(218, 199, 32);
+}
+.color3{
+    background-color: rgb(239, 158, 65);
+}
+.color4{
+    background-color: rgb(97, 171, 97);
+}
+
+@media screen and (max-width: 768px){
+
+    section{
+        color: white;
+    }
+
+    .sectlogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .color1{
+        background-color: rgb(255, 140, 140);
+    }
+    .color2{
+        background-color: rgb(237, 103, 103);
+    }
+    .color3{
+        background-color: rgb(103, 98, 207);
+    }
+    .color4{
+        background-color: rgb(61, 53, 218);
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+ 
+    .sectmain{
+        padding-top: 4rem;
+        text-align: center;
+    }
+
+    .color1{
+        background-color: rgb(118, 144, 227);
+    }
+    .color2{
+        background-color: rgb(130, 226, 232);
+    }
+    .color3{
+        background-color: rgb(235, 119, 243);
+    }
+    .color4{
+        background-color: rgb(47, 44, 97);
+    }
+}
