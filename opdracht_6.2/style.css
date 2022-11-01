@@ -1,0 +1,33 @@
+body {
+    font-size: 62.5%;
+}
+
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.b1 {
+    background: blue;
+}
+
+.b2 {
+    background: black;
+}
+
+.b3 {
+    background: red;
+}
+
+.b4 {
+    background: green;
+}
